@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>de.bonprix.base</groupId>
+		<artifactId>dsuite-service-parent</artifactId>
+		<version>2.46.1</version>
+		<relativePath/><!-- lookup parent from repository -->
+	</parent>
+
+	<artifactId>playground-ws</artifactId>
+	<groupId>de.bonprix</groupId>
+	<version>1.0-SNAPSHOT</version>
+	<packaging>pom</packaging>
+
+<!-->	<distributionManagement>
+		<repository>
+			<id>bp_artifactory</id>
+			<name>bp_artifactory-releases</name>
+			<url>http://digistyle.bonprix.net/artifactory/libs-release-local</url>
+		</repository>
+		<snapshotRepository>
+			<id>bp_artifactory</id>
+			<name>bp_artifactory-snapshots</name>
+			<url>http://digistyle.bonprix.net/artifactory/libs-snapshot-local</url>
+		</snapshotRepository>
+	</distributionManagement> <-->
+	
+  <modules>
+    <module>playground-ws-api</module>
+    <module>playground-ws-impl</module>
+  </modules>
+</project>
